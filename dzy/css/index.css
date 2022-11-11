@@ -1,0 +1,82 @@
+*{margin:0;padding:0;}
+a,span{
+	text-decoration: none;
+	cursor:pointer;
+	color: #FFFFFF;
+}
+.top{
+	height: 100px;
+	width: 100%;
+	background-color:rgba(2, 2, 2, 0.2);
+}
+.top ul{
+	width: 400px;
+	height:50px;
+	list-style: none;
+	float:right;
+	line-height: 100px;
+	margin-top: 25px;
+	background-color:rgba(0, 0, 0, 0);
+	cursor:pointer;
+}
+.top .logo{
+	float:left;
+	padding:0px 0px 0px 10px;
+	line-height:100px;
+	color:white;
+	font-size:30px;
+	display: block;
+	width: 350px;
+	height: 100px;
+	text-align: center;
+	
+}
+.top .logo:hover{
+	font-size: 40px;
+	color:rgba(255, 0, 4, 0.8);
+}
+.top ul li{
+	width: 100px;
+	height: 50px;
+	float: left;
+	text-align: center;
+	line-height: 50px;
+}
+/* .top ul li a{
+		display: block;
+} */
+.top ul li a:hover{
+	color:red;
+	border-bottom: #FF0000 solid 2px;
+}
+.top_box{
+	width: 1384px;
+	height: 100px;
+	margin: 0 auto;
+}
+body{
+	background:url(../img/ZephyrusDuoWorldview_HD.gif) no-repeat ; 
+
+
+}
+html{
+	height :100%;
+}
+	ul li ol{
+		list-style: none;
+		display: none;
+	}
+	#main{
+		width: 1434px;
+		height: 680px;	
+	}
+.top ul li:hover ol{
+	display: block;
+}
+#banner{
+	text-align: center;
+	background-color: rgba(0, 0, 0, 0);
+}
+.bili{
+vertical-align:bottom;
+}
